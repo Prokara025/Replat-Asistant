@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+.komut-kutusu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  width: 70%;
+  min-width: 200px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00ffcc;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ccaa;
+}
+
+.cevap-alani {
+  font-size: 18px;
+  margin-top: 20px;
+  min-height: 40px;
+}
