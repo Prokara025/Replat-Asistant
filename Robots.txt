@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://seninsiten.vercel.app/sitemap.xml
+Sitemap: https://replat-asistant.vercel.app/sitemap.xml
+
